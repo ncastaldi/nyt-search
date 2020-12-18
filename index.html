@@ -41,13 +41,14 @@
     <script type="text/javascript">
         $("#submitBtn").on("click", function(event) {
             event.preventDefault();
-            var searchForAJAX = $("#searchBox").val();
-            var howManyArticles = $("#manyArticles").val();
+            var searchTerm = $("#searchBox").val();
+            //var howManyArticles = $("#manyArticles").val();
         });
         $("#clearBtn").on("click", function(event){
             $("#searchBox").val("");
             $("#manyArticles").val("");
         });
     </script>
+    <script src="./script.js"></script>
   </body>
 </html>
